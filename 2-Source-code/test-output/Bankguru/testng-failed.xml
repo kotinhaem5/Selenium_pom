@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Bankguru]">
+  <test thread-count="5" name="Run on Chrome(failed)">
+    <parameter name="browser" value="CHROME"/>
+    <parameter name="url" value="https://www.jqueryscript.net/demo/CRUD-Data-Grid-Plugin-jQuery-Quickgrid/"/>
+    <classes>
+      <class name="com.jquery.datatable.Level_12_DataTable">
+        <methods>
+          <include name="afterClass"/>
+          <include name="TC_01_InputData"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.jquery.datatable.Level_12_DataTable -->
+    </classes>
+  </test> <!-- Run on Chrome(failed) -->
+</suite> <!-- Failed suite [Bankguru] -->

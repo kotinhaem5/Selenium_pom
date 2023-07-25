@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Bankguru">
+  <test name="Run on Chrome">
+	<parameter name="browser" value = "CHROME"></parameter>
+	 <parameter name ="url" value = "https://www.jqueryscript.net/demo/CRUD-Data-Grid-Plugin-jQuery-Quickgrid/"> </parameter>
+    <classes>
+      <class name="com.jquery.datatable.Level_12_DataTable"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+<!-- Abstract page-->

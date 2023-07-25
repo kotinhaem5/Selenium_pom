@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Bankguru">
+  <test name="Run on Chrome">
+	<parameter name="browser" value = "CHROME"></parameter>
+
+    <classes>
+      <class name="com.bankguru.user.Level_11_DynamicPage_Rest_Parametter"/>
+    </classes>
+  </test> <!-- Test -->
+<?ignore
+  <test name="Run on FIREFOX">
+	  <parameter name="browser" value = "firefox"></parameter>
+    <classes>
+      <class name="com.bankguru.user.Level_05_Handle_Mutiple_Browser"/>
+    </classes>
+  </test> <!-- Test -->
+  ?>
+</suite> <!-- Suite -->
+<!-- Abstract page-->
